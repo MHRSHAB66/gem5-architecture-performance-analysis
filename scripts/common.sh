@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # common.sh - shared helpers for all run scripts
-# ACA Project 3 - Mehrdad Sheikhabbasi (40131025)
 #
 # Resolves the project root relative to this file so every script can be
 # invoked from any working directory. GEM5_ROOT may be overridden via the

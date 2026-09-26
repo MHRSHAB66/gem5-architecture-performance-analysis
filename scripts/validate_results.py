@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """validate_results.py - gatekeeper before packaging.
 
-ACA Project 3 - Mehrdad Sheikhabbasi (40131025)
-
 Checks (exit code != 0 on any failure => packaging must NOT run):
   1. all eight mandatory runs exist,
   2. every run has stats.txt and config.ini,

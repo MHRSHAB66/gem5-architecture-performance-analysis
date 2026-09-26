@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """generate_plots.py - figures for the report, straight from the CSVs.
 
-ACA Project 3 - Mehrdad Sheikhabbasi (40131025)
-
 Every number plotted here comes from results/*.csv, which in turn come
 from real stats.txt files (see extract_stats.py). Axis labels use the
 standard English technical terms; the Persian captions live in the

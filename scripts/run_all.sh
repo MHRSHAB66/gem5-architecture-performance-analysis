@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # run_all.sh - full reproducible pipeline
-# ACA Project 3 - Mehrdad Sheikhabbasi (40131025)
 #
 # environment -> build -> 8 gem5 runs -> stats extraction -> validation
 # -> plots -> screenshots. Packaging (scripts/package.sh) is separate on

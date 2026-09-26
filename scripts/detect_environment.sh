@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # detect_environment.sh - record the simulation environment
-# ACA Project 3 - Mehrdad Sheikhabbasi (40131025)
 #
 # Writes results/environment.txt with gem5 version, toolchain, OS and
 # hardware details. Run from anywhere.

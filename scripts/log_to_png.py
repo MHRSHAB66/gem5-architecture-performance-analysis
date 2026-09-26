@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """log_to_png.py - render REAL log excerpts as readable PNG screenshots.
 
-ACA Project 3 - Mehrdad Sheikhabbasi (40131025)
-
 Renders the actual, unmodified text of the run logs with a monospace
 font on a white background, with the run title in a header bar. No
 output is fabricated or reconstructed: the text is read verbatim from

@@ -1,5 +1,4 @@
 # Makefile - ACA Project 3 (gem5)
-# Student: Mehrdad Sheikhabbasi (40131025)
 #
 # The heavy lifting lives in scripts/ so every target also works when
 # invoked directly as a shell script. GEM5_ROOT defaults to ~/gem5 and

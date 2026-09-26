@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # build_workloads.sh - compile all four workloads with IDENTICAL flags
-# ACA Project 3 - Mehrdad Sheikhabbasi (40131025)
 #
 # All binaries are statically linked (required for gem5 SE mode) and
 # compiled with the exact same flags so compared runs differ only in

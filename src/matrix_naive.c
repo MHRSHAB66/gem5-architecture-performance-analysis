@@ -1,7 +1,6 @@
 /*
  * matrix_naive.c - Naive matrix multiplication (i-j-k loop order)
  * ACA Project 3 - Part 1 (Step 0 / Algorithm 1)
- * Student: Mehrdad Sheikhabbasi (40131025)
  *
  * C = A * B for 100x100 row-major int matrices.
  * Data is generated with rand() after srand(1) so that both the naive

@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """extract_stats.py - robust gem5 stats.txt parser and CSV generator.
 
-ACA Project 3 - Mehrdad Sheikhabbasi (40131025)
-
 Reads every stats.txt under results/raw/<run>/, resolves each requested
 metric through a list of known gem5 aliases (old snake_case names and the
 new camelCase names), and writes:

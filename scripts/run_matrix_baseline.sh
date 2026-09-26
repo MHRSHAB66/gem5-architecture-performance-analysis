@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # run_matrix_baseline.sh - Part 1 Step 1: baseline WITHOUT caches
-# ACA Project 3 - Mehrdad Sheikhabbasi (40131025)
 #
 # Runs matrix_naive and matrix_tiled on the custom no-cache SE system
 # (configs/no_cache.py): X86TimingSimpleCPU + SimpleMemory, no L1/L2.

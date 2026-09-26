@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # run_linked_list.sh - Question 1: CPU model comparison
-# ACA Project 3 - Mehrdad Sheikhabbasi (40131025)
 #
 # Runs linked_list_recursive and linked_list_iterative with both
 # AtomicSimpleCPU and DerivO3CPU. Everything else (binary flags, clock,

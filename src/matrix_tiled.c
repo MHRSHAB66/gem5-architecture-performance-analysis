@@ -1,7 +1,6 @@
 /*
  * matrix_tiled.c - Tiled (blocked) matrix multiplication
  * ACA Project 3 - Part 1 (Step 0 / Algorithm 2)
- * Student: Mehrdad Sheikhabbasi (40131025)
  *
  * Identical input data to matrix_naive.c (same srand(1) / rand()%10
  * generation order), identical checksum output.

@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # run_matrix_cache.sh - Part 1 Step 2: two-level cache hierarchy
-# ACA Project 3 - Mehrdad Sheikhabbasi (40131025)
 #
 # Runs matrix_naive and matrix_tiled with the official se.py config:
 # TimingSimpleCPU, L1I/L1D 32kB 4-way, unified L2 256kB 8-way, 64B lines,

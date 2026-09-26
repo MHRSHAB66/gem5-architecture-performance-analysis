@@ -1,6 +1,5 @@
 # no_cache.py - minimal SE-mode gem5 config WITHOUT any cache hierarchy
 # ACA Project 3 - Part 1 Step 1 (baseline)
-# Student: Mehrdad Sheikhabbasi (40131025)
 #
 # Verified against gem5 v23.0.0.1 (build/X86/gem5.opt).
 #
