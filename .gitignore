@@ -1,0 +1,12 @@
+bin/
+results/raw/
+results/logs/
+results/screenshots/
+__pycache__/
+*.py[cod]
+*.zip
+*.pdf
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

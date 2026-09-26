@@ -1,0 +1,5 @@
+run,ipc,ipc__key,simSeconds,simSeconds__key,simTicks,simInsts,simOps,numCycles,branchPredCondPredicted,branchPredCondIncorrect,commitBranches,commitFunctionCalls,numBranches,numMemRefs
+list_recursive_atomic,0.464813,system.cpu.ipc,0.00229,simSeconds,2289894000.0,2128652.0,3786725.0,4579789.0,,,,,0.0,733355.0
+list_recursive_o3,0.979591,system.cpu.ipc,0.001086,simSeconds,1086499500.0,2128652.0,3786725.0,2173000.0,335228.0,731.0,,30154.0,424645.0,754687.0
+list_iterative_atomic,0.469648,system.cpu.ipc,0.00216,simSeconds,2159860500.0,2028655.0,3566731.0,4319722.0,,,,,0.0,673320.0
+list_iterative_o3,0.996891,system.cpu.ipc,0.001017,simSeconds,1017490500.0,2028655.0,3566731.0,2034982.0,324377.0,725.0,,20154.0,394256.0,677631.0

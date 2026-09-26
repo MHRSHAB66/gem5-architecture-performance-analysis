@@ -1,0 +1,9 @@
+run,cpu_type,mem_mode,mem_ranges,cache_line_size,clk_domain_clock_ticks,cpu_clk_domain_clock_ticks,mem_ctrl_type,simple_mem_latency,l1i_size,l1i_assoc,l1d_size,l1d_assoc,l2_size,l2_assoc
+list_recursive_atomic,BaseAtomicSimpleCPU,atomic,0:536870912,64,1000,500,SimpleMemory,30000,32768,4,32768,4,262144,8
+list_recursive_o3,BaseO3CPU,timing,0:536870912,64,1000,500,SimpleMemory,30000,32768,4,32768,4,262144,8
+list_iterative_atomic,BaseAtomicSimpleCPU,atomic,0:536870912,64,1000,500,SimpleMemory,30000,32768,4,32768,4,262144,8
+list_iterative_o3,BaseO3CPU,timing,0:536870912,64,1000,500,SimpleMemory,30000,32768,4,32768,4,262144,8
+matrix_no_cache_naive,BaseTimingSimpleCPU,timing,0:536870912,64,500,,SimpleMemory,30000,,,,,,
+matrix_no_cache_tiled,BaseTimingSimpleCPU,timing,0:536870912,64,500,,SimpleMemory,30000,,,,,,
+matrix_cache_naive,BaseTimingSimpleCPU,timing,0:536870912,64,1000,500,SimpleMemory,30000,32768,4,32768,4,262144,8
+matrix_cache_tiled,BaseTimingSimpleCPU,timing,0:536870912,64,1000,500,SimpleMemory,30000,32768,4,32768,4,262144,8

@@ -1,0 +1,33 @@
+==== ACA Project 3 - Environment ====
+Date: 2026-07-14 22:08:23 UTC
+
+---- gem5 ----
+GEM5_ROOT: /home/mine_pc/gem5
+GEM5_BIN:  /home/mine_pc/gem5/build/X86/gem5.opt
+gem5 git version: v23.0.0.1
+se.py: /home/mine_pc/gem5/configs/deprecated/example/se.py (present)
+
+---- gem5 build info (first lines of gem5.opt banner) ----
+Build information:
+
+
+---- OS ----
+Linux mhrshab 6.6.114.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Mon Dec  1 20:46:23 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 20.04.6 LTS"
+
+---- CPU / RAM ----
+nproc: 16
+model name	: 13th Gen Intel(R) Core(TM) i7-13620H
+              total        used        free      shared  buff/cache   available
+Mem:           15Gi       399Mi        14Gi       3.0Mi       444Mi        14Gi
+
+---- Toolchain ----
+gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0
+Python 3.8.10
+
+---- Fixed simulation parameters (all runs) ----
+CPU_CLOCK=2GHz
+SYS_CLOCK=1GHz
+MEM_TYPE=SimpleMemory
+MEM_SIZE=512MB
+L1I=32kB/4-way  L1D=32kB/4-way  L2=256kB/8-way  line=64B
