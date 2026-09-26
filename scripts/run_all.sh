@@ -2,8 +2,7 @@
 # run_all.sh - full reproducible pipeline
 #
 # environment -> build -> 8 gem5 runs -> stats extraction -> validation
-# -> plots -> screenshots. Packaging (scripts/package.sh) is separate on
-# purpose: it must only run after validation has been inspected.
+# -> plots -> screenshots.
 
 set -eu
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

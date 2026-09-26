@@ -52,9 +52,6 @@ report:
 	cd report && xelatex -interaction=nonstopmode main.tex \
 	          && xelatex -interaction=nonstopmode main.tex
 
-package:
-	bash scripts/package.sh
-
 clean:
 	rm -f $(BINS)
 	rm -f report/main.aux report/main.log report/main.out report/main.toc
